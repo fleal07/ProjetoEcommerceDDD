@@ -1,0 +1,14 @@
+D:\Repos\EcommerceDDD\Application\bin\Debug\netcoreapp3.1\ApplicationApp.deps.json
+D:\Repos\EcommerceDDD\Application\bin\Debug\netcoreapp3.1\ApplicationApp.dll
+D:\Repos\EcommerceDDD\Application\bin\Debug\netcoreapp3.1\ApplicationApp.pdb
+D:\Repos\EcommerceDDD\Application\obj\Debug\netcoreapp3.1\ApplicationApp.csprojAssemblyReference.cache
+D:\Repos\EcommerceDDD\Application\obj\Debug\netcoreapp3.1\ApplicationApp.AssemblyInfoInputs.cache
+D:\Repos\EcommerceDDD\Application\obj\Debug\netcoreapp3.1\ApplicationApp.AssemblyInfo.cs
+D:\Repos\EcommerceDDD\Application\obj\Debug\netcoreapp3.1\ApplicationApp.csproj.CoreCompileInputs.cache
+D:\Repos\EcommerceDDD\Application\obj\Debug\netcoreapp3.1\ApplicationApp.dll
+D:\Repos\EcommerceDDD\Application\obj\Debug\netcoreapp3.1\ApplicationApp.pdb
+D:\Repos\EcommerceDDD\Application\bin\Debug\netcoreapp3.1\Domain.dll
+D:\Repos\EcommerceDDD\Application\bin\Debug\netcoreapp3.1\Entities.dll
+D:\Repos\EcommerceDDD\Application\bin\Debug\netcoreapp3.1\Domain.pdb
+D:\Repos\EcommerceDDD\Application\bin\Debug\netcoreapp3.1\Entities.pdb
+D:\Repos\EcommerceDDD\Application\obj\Debug\netcoreapp3.1\ApplicationApp.csproj.CopyComplete
