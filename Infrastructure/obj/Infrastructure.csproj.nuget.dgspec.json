@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Repos\\EcommerceDDD\\Infrastructure\\Infrastructure.csproj": {}
+    "D:\\Repos\\ProjetoEcommerceDDD\\Infrastructure\\Infrastructure.csproj": {}
   },
   "projects": {
-    "D:\\Repos\\EcommerceDDD\\Domain\\Domain.csproj": {
+    "D:\\Repos\\ProjetoEcommerceDDD\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Repos\\EcommerceDDD\\Domain\\Domain.csproj",
+        "projectUniqueName": "D:\\Repos\\ProjetoEcommerceDDD\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "D:\\Repos\\EcommerceDDD\\Domain\\Domain.csproj",
+        "projectPath": "D:\\Repos\\ProjetoEcommerceDDD\\Domain\\Domain.csproj",
         "packagesPath": "C:\\Users\\fleal\\.nuget\\packages\\",
-        "outputPath": "D:\\Repos\\EcommerceDDD\\Domain\\obj\\",
+        "outputPath": "D:\\Repos\\ProjetoEcommerceDDD\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\fleal\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -27,8 +27,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "D:\\Repos\\EcommerceDDD\\Entities\\Entities.csproj": {
-                "projectPath": "D:\\Repos\\EcommerceDDD\\Entities\\Entities.csproj"
+              "D:\\Repos\\ProjetoEcommerceDDD\\Entities\\Entities.csproj": {
+                "projectPath": "D:\\Repos\\ProjetoEcommerceDDD\\Entities\\Entities.csproj"
               }
             }
           }
@@ -60,14 +60,14 @@
         }
       }
     },
-    "D:\\Repos\\EcommerceDDD\\Entities\\Entities.csproj": {
+    "D:\\Repos\\ProjetoEcommerceDDD\\Entities\\Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Repos\\EcommerceDDD\\Entities\\Entities.csproj",
+        "projectUniqueName": "D:\\Repos\\ProjetoEcommerceDDD\\Entities\\Entities.csproj",
         "projectName": "Entities",
-        "projectPath": "D:\\Repos\\EcommerceDDD\\Entities\\Entities.csproj",
+        "projectPath": "D:\\Repos\\ProjetoEcommerceDDD\\Entities\\Entities.csproj",
         "packagesPath": "C:\\Users\\fleal\\.nuget\\packages\\",
-        "outputPath": "D:\\Repos\\EcommerceDDD\\Entities\\obj\\",
+        "outputPath": "D:\\Repos\\ProjetoEcommerceDDD\\Entities\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\fleal\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -93,6 +93,18 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.6, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -112,14 +124,14 @@
         }
       }
     },
-    "D:\\Repos\\EcommerceDDD\\Infrastructure\\Infrastructure.csproj": {
+    "D:\\Repos\\ProjetoEcommerceDDD\\Infrastructure\\Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Repos\\EcommerceDDD\\Infrastructure\\Infrastructure.csproj",
+        "projectUniqueName": "D:\\Repos\\ProjetoEcommerceDDD\\Infrastructure\\Infrastructure.csproj",
         "projectName": "Infrastructure",
-        "projectPath": "D:\\Repos\\EcommerceDDD\\Infrastructure\\Infrastructure.csproj",
+        "projectPath": "D:\\Repos\\ProjetoEcommerceDDD\\Infrastructure\\Infrastructure.csproj",
         "packagesPath": "C:\\Users\\fleal\\.nuget\\packages\\",
-        "outputPath": "D:\\Repos\\EcommerceDDD\\Infrastructure\\obj\\",
+        "outputPath": "D:\\Repos\\ProjetoEcommerceDDD\\Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\fleal\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -135,11 +147,11 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "D:\\Repos\\EcommerceDDD\\Domain\\Domain.csproj": {
-                "projectPath": "D:\\Repos\\EcommerceDDD\\Domain\\Domain.csproj"
+              "D:\\Repos\\ProjetoEcommerceDDD\\Domain\\Domain.csproj": {
+                "projectPath": "D:\\Repos\\ProjetoEcommerceDDD\\Domain\\Domain.csproj"
               },
-              "D:\\Repos\\EcommerceDDD\\Entities\\Entities.csproj": {
-                "projectPath": "D:\\Repos\\EcommerceDDD\\Entities\\Entities.csproj"
+              "D:\\Repos\\ProjetoEcommerceDDD\\Entities\\Entities.csproj": {
+                "projectPath": "D:\\Repos\\ProjetoEcommerceDDD\\Entities\\Entities.csproj"
               }
             }
           }
@@ -153,6 +165,10 @@
       "frameworks": {
         "netcoreapp3.1": {
           "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.6, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[3.1.6, )"

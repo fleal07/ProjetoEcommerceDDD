@@ -1,4 +1,5 @@
 ﻿using Entities.Entities;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
@@ -8,7 +9,7 @@ using System.Text;
 namespace Infrastructure.Configuration
 {
     //Instalar pacote Nuget Microsof.EntityFrameworkCore
-    public class ContextBase : DbContext
+    public class ContextBase : IdentityDbContext<ApplicationUser>
     {
         public ContextBase(DbContextOptions<ContextBase> options) : base(options)
         {
@@ -33,7 +34,7 @@ namespace Infrastructure.Configuration
 
         private string GetConnectionString()
         {
-            string strCon = "Server=tcp:fleal07.database.windows.net,1433;Database=GestaoPomar;User ID=fleal07;Password=ea+apesmna16;";
+            string strCon = "Server=localhost;Database=master;Trusted_Connection=True;";
             return strCon;
         }
     }

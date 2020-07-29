@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\fleal\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\fleal\\.nuget\\packages"
+    ]
+  }
+}
