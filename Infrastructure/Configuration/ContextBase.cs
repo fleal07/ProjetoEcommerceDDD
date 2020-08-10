@@ -1,10 +1,6 @@
 ﻿using Entities.Entities;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
-using System;
-using System.Collections.Generic;
-using System.Net.Http.Headers;
-using System.Text;
 
 namespace Infrastructure.Configuration
 {
@@ -34,7 +30,7 @@ namespace Infrastructure.Configuration
 
         private string GetConnectionString()
         {
-            string strCon = "Server=localhost;Database=master;Trusted_Connection=True;";
+            string strCon = "Server=localhost;Database=EcommerceDDD;Trusted_Connection=True;";
             return strCon;
         }
     }
