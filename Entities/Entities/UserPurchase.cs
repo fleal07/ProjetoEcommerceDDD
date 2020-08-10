@@ -5,15 +5,16 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace Entities.Entities
 {
-    [Table("TB_COMPRA_USUARIO")]
-    public class CompraUsuario : Notifies
+    [Table("UserPurchase")]
+    public class UserPurchase : Notifies
     {
+        [Key]
         [Column("CUS_ID")]
         [Display(Name = "Código")]
         public int CUD_ID { get; set; }
 
         [Display(Name = "Produto")]
-        [ForeignKey("TB_PRODUTO")]
+        [ForeignKey("Product")]
         [Column(Order = 1)]
         public int Id_Produto { get; set; }
         public virtual Product Product { get; set; }

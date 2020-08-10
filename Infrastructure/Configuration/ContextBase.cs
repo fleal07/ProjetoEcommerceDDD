@@ -4,7 +4,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace Infrastructure.Configuration
 {
-    //Instalar pacote Nuget Microsof.EntityFrameworkCore
+    //Instalar pacote Nugget Microsoft.EntityFrameworkCore
     public class ContextBase : IdentityDbContext<ApplicationUser>
     {
         public ContextBase(DbContextOptions<ContextBase> options) : base(options)
@@ -13,7 +13,7 @@ namespace Infrastructure.Configuration
         }
 
         public DbSet<Product> Product { get; set; }
-
+        public DbSet<UserPurchase> UserPurchase { get; set; }
         /// <summary>
         /// Método para configuração da conexão com o banco de dados
         /// </summary>
@@ -22,7 +22,7 @@ namespace Infrastructure.Configuration
         {
             if (!optionsBuilder.IsConfigured)
             {
-                //Instalar pacote Nuget Microsof.EntityFrameworkCore.SqlServer
+                //Instalar pacote Nugget Microsoft.EntityFrameworkCore.SqlServer
                 optionsBuilder.UseSqlServer(GetConnectionString());
                 base.OnConfiguring(optionsBuilder);
             }
@@ -30,7 +30,7 @@ namespace Infrastructure.Configuration
 
         private string GetConnectionString()
         {
-            string strCon = "Server=localhost;Database=EcommerceDDD;Trusted_Connection=True;";
+            string strCon = "Server=localhost;Database=EcommerceDDD;Integrated Security=False;Trusted_Connection=True;";
             return strCon;
         }
     }
