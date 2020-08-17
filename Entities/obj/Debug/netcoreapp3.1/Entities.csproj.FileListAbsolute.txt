@@ -8,14 +8,13 @@ D:\Repos\EcommerceDDD\Entities\obj\Debug\netcoreapp3.1\Entities.dll
 D:\Repos\EcommerceDDD\Entities\obj\Debug\netcoreapp3.1\Entities.pdb
 D:\Repos\EcommerceDDD\Entities\obj\Debug\netcoreapp3.1\Entities.csprojAssemblyReference.cache
 D:\Repos\ProjetoEcommerceDDD\Entities\bin\Debug\netcoreapp3.1\Entities.deps.json
+D:\Repos\ProjetoEcommerceDDD\Entities\bin\Debug\netcoreapp3.1\Entities.runtimeconfig.json
+D:\Repos\ProjetoEcommerceDDD\Entities\bin\Debug\netcoreapp3.1\Entities.runtimeconfig.dev.json
 D:\Repos\ProjetoEcommerceDDD\Entities\bin\Debug\netcoreapp3.1\Entities.dll
 D:\Repos\ProjetoEcommerceDDD\Entities\bin\Debug\netcoreapp3.1\Entities.pdb
 D:\Repos\ProjetoEcommerceDDD\Entities\obj\Debug\netcoreapp3.1\Entities.AssemblyInfoInputs.cache
 D:\Repos\ProjetoEcommerceDDD\Entities\obj\Debug\netcoreapp3.1\Entities.AssemblyInfo.cs
+D:\Repos\ProjetoEcommerceDDD\Entities\obj\Debug\netcoreapp3.1\Entities.csproj.CoreCompileInputs.cache
 D:\Repos\ProjetoEcommerceDDD\Entities\obj\Debug\netcoreapp3.1\Entities.dll
 D:\Repos\ProjetoEcommerceDDD\Entities\obj\Debug\netcoreapp3.1\Entities.pdb
-D:\Repos\ProjetoEcommerceDDD\Entities\bin\Debug\netcoreapp3.1\Entities.runtimeconfig.json
-D:\Repos\ProjetoEcommerceDDD\Entities\bin\Debug\netcoreapp3.1\Entities.runtimeconfig.dev.json
-D:\Repos\ProjetoEcommerceDDD\Entities\obj\Debug\netcoreapp3.1\Entities.csproj.CoreCompileInputs.cache
 D:\Repos\ProjetoEcommerceDDD\Entities\obj\Debug\netcoreapp3.1\Entities.genruntimeconfig.cache
-D:\Repos\ProjetoEcommerceDDD\Entities\obj\Debug\netcoreapp3.1\Entities.csprojAssemblyReference.cache

@@ -4,6 +4,65 @@
     "D:\\Repos\\ProjetoEcommerceDDD\\Web_Ecommerce\\Web_Ecommerce.csproj": {}
   },
   "projects": {
+    "D:\\Repos\\ProjetoEcommerceDDD\\Application\\ApplicationApp.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Repos\\ProjetoEcommerceDDD\\Application\\ApplicationApp.csproj",
+        "projectName": "ApplicationApp",
+        "projectPath": "D:\\Repos\\ProjetoEcommerceDDD\\Application\\ApplicationApp.csproj",
+        "packagesPath": "C:\\Users\\fleal\\.nuget\\packages\\",
+        "outputPath": "D:\\Repos\\ProjetoEcommerceDDD\\Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\fleal\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "D:\\Repos\\ProjetoEcommerceDDD\\Domain\\Domain.csproj": {
+                "projectPath": "D:\\Repos\\ProjetoEcommerceDDD\\Domain\\Domain.csproj"
+              },
+              "D:\\Repos\\ProjetoEcommerceDDD\\Entities\\Entities.csproj": {
+                "projectPath": "D:\\Repos\\ProjetoEcommerceDDD\\Entities\\Entities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
     "D:\\Repos\\ProjetoEcommerceDDD\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -56,7 +115,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
         }
       }
     },
@@ -120,7 +179,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
         }
       }
     },
@@ -193,7 +252,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
         }
       }
     },
@@ -220,6 +279,9 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
+              "D:\\Repos\\ProjetoEcommerceDDD\\Application\\ApplicationApp.csproj": {
+                "projectPath": "D:\\Repos\\ProjetoEcommerceDDD\\Application\\ApplicationApp.csproj"
+              },
               "D:\\Repos\\ProjetoEcommerceDDD\\Infrastructure\\Infrastructure.csproj": {
                 "projectPath": "D:\\Repos\\ProjetoEcommerceDDD\\Infrastructure\\Infrastructure.csproj"
               }
@@ -274,7 +336,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
         }
       }
     }

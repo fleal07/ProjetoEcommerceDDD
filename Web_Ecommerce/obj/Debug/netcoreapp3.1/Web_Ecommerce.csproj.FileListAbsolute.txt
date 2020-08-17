@@ -57,6 +57,12 @@ D:\Repos\ProjetoEcommerceDDD\Web_Ecommerce\bin\Debug\netcoreapp3.1\runtimes\win-
 D:\Repos\ProjetoEcommerceDDD\Web_Ecommerce\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
 D:\Repos\ProjetoEcommerceDDD\Web_Ecommerce\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
 D:\Repos\ProjetoEcommerceDDD\Web_Ecommerce\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\Repos\ProjetoEcommerceDDD\Web_Ecommerce\bin\Debug\netcoreapp3.1\Domain.dll
+D:\Repos\ProjetoEcommerceDDD\Web_Ecommerce\bin\Debug\netcoreapp3.1\Entities.dll
+D:\Repos\ProjetoEcommerceDDD\Web_Ecommerce\bin\Debug\netcoreapp3.1\Infrastructure.dll
+D:\Repos\ProjetoEcommerceDDD\Web_Ecommerce\bin\Debug\netcoreapp3.1\Infrastructure.pdb
+D:\Repos\ProjetoEcommerceDDD\Web_Ecommerce\bin\Debug\netcoreapp3.1\Domain.pdb
+D:\Repos\ProjetoEcommerceDDD\Web_Ecommerce\bin\Debug\netcoreapp3.1\Entities.pdb
 D:\Repos\ProjetoEcommerceDDD\Web_Ecommerce\obj\Debug\netcoreapp3.1\Web_Ecommerce.csprojAssemblyReference.cache
 D:\Repos\ProjetoEcommerceDDD\Web_Ecommerce\obj\Debug\netcoreapp3.1\Web_Ecommerce.AssemblyInfoInputs.cache
 D:\Repos\ProjetoEcommerceDDD\Web_Ecommerce\obj\Debug\netcoreapp3.1\Web_Ecommerce.AssemblyInfo.cs
@@ -86,9 +92,3 @@ D:\Repos\ProjetoEcommerceDDD\Web_Ecommerce\obj\Debug\netcoreapp3.1\staticwebasse
 D:\Repos\ProjetoEcommerceDDD\Web_Ecommerce\obj\Debug\netcoreapp3.1\Web_Ecommerce.dll
 D:\Repos\ProjetoEcommerceDDD\Web_Ecommerce\obj\Debug\netcoreapp3.1\Web_Ecommerce.pdb
 D:\Repos\ProjetoEcommerceDDD\Web_Ecommerce\obj\Debug\netcoreapp3.1\Web_Ecommerce.genruntimeconfig.cache
-D:\Repos\ProjetoEcommerceDDD\Web_Ecommerce\bin\Debug\netcoreapp3.1\Domain.dll
-D:\Repos\ProjetoEcommerceDDD\Web_Ecommerce\bin\Debug\netcoreapp3.1\Entities.dll
-D:\Repos\ProjetoEcommerceDDD\Web_Ecommerce\bin\Debug\netcoreapp3.1\Infrastructure.dll
-D:\Repos\ProjetoEcommerceDDD\Web_Ecommerce\bin\Debug\netcoreapp3.1\Infrastructure.pdb
-D:\Repos\ProjetoEcommerceDDD\Web_Ecommerce\bin\Debug\netcoreapp3.1\Domain.pdb
-D:\Repos\ProjetoEcommerceDDD\Web_Ecommerce\bin\Debug\netcoreapp3.1\Entities.pdb

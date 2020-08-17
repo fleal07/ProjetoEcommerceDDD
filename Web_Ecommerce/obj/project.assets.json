@@ -1426,6 +1426,20 @@
           "lib/netstandard1.3/System.Xml.XmlSerializer.dll": {}
         }
       },
+      "ApplicationApp/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "Domain": "1.0.0",
+          "Entities": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/ApplicationApp.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ApplicationApp.dll": {}
+        }
+      },
       "Domain/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
@@ -5439,6 +5453,11 @@
         "system.xml.xmlserializer.nuspec"
       ]
     },
+    "ApplicationApp/1.0.0": {
+      "type": "project",
+      "path": "../Application/ApplicationApp.csproj",
+      "msbuildProject": "../Application/ApplicationApp.csproj"
+    },
     "Domain/1.0.0": {
       "type": "project",
       "path": "../Domain/Domain.csproj",
@@ -5457,6 +5476,7 @@
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
+      "ApplicationApp >= 1.0.0",
       "Infrastructure >= 1.0.0",
       "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore >= 3.1.6",
       "Microsoft.AspNetCore.Identity.EntityFrameworkCore >= 3.1.6",
@@ -5491,6 +5511,9 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
+            "D:\\Repos\\ProjetoEcommerceDDD\\Application\\ApplicationApp.csproj": {
+              "projectPath": "D:\\Repos\\ProjetoEcommerceDDD\\Application\\ApplicationApp.csproj"
+            },
             "D:\\Repos\\ProjetoEcommerceDDD\\Infrastructure\\Infrastructure.csproj": {
               "projectPath": "D:\\Repos\\ProjetoEcommerceDDD\\Infrastructure\\Infrastructure.csproj"
             }
@@ -5545,7 +5568,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
       }
     }
   }
